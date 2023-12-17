@@ -115,6 +115,7 @@
 
 ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/26bbcc14-3703-4005-8fa9-7065bb35675d)
 ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/b2c0209c-64af-4854-b5e5-af499e4dcad8)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/2777a6fb-c1a4-4399-9a33-48b44a9b3096)
 
 ### Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит)
 
