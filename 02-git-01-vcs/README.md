@@ -95,11 +95,26 @@
 
 ### Создание файлов `.gitignore` и второго коммита
 
-1. Создайте файл `.gitignore` (обратите внимание на точку в начале файла), проверьте его статус сразу после создания. 
-1. Добавьте файл `.gitignore` в следующий коммит (`git add...`).
-1. На одном из следующих блоков вы будете изучать `Terraform`, давайте сразу создадим соотвествующий каталог `terraform` и внутри этого каталога — файл `.gitignore` по примеру: https://github.com/github/gitignore/blob/master/Terraform.gitignore.  
-1. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
-1. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
+1. Создайте файл `.gitignore` (обратите внимание на точку в начале файла), проверьте его статус сразу после создания.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/1d2d8371-c9ad-414e-b230-08eba37b0381)
+
+2. Добавьте файл `.gitignore` в следующий коммит (`git add...`).
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/506cb298-74c9-48c7-a576-97e163d6148f)
+
+3. На одном из следующих блоков вы будете изучать `Terraform`, давайте сразу создадим соотвествующий каталог `terraform` и внутри этого каталога — файл `.gitignore` по примеру: https://github.com/github/gitignore/blob/master/Terraform.gitignore. "ССЫЛКА БИТАЯ! НЕ ДЕЙСТВИТЕЛЬНА! ПО КРАЙНЕЙ МЕРЕ НА МОМЕНТ ВЫПОЛНЕНИЯ ДЗ!"
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/d6853872-2b62-455a-9f8e-1d091552041c)
+
+4. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/d87dabb8-8d3b-4f05-b288-30a8148561e4)
+
+5. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/26bbcc14-3703-4005-8fa9-7065bb35675d)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/b2c0209c-64af-4854-b5e5-af499e4dcad8)
 
 ### Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит)
 
