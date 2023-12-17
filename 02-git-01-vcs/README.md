@@ -120,10 +120,23 @@
 ### Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит)
 
 1. Создайте файлы `will_be_deleted.txt` (с текстом `will_be_deleted`) и `will_be_moved.txt` (с текстом `will_be_moved`) и закоммите их с комментарием `Prepare to delete and move`.
-1. В случае необходимости обратитесь к [официальной документации](https://git-scm.com/book/ru/v2/Основы-Git-Запись-изменений-в-репозиторий) — здесь подробно описано, как выполнить следующие шаги. 
-1. Удалите файл `will_be_deleted.txt` с диска и из репозитория. 
-1. Переименуйте (переместите) файл `will_be_moved.txt` на диске и в репозитории, чтобы он стал называться `has_been_moved.txt`.
-1. Закоммитьте результат работы с комментарием `Moved and deleted`.
+2. 
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/fd177e34-7a36-4d47-896f-ab0754952dea)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/489877c8-98e2-4af9-ad10-22860ebc0b76)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/49af6aaf-9fdf-4723-816b-103a0e544a99)
+
+3. В случае необходимости обратитесь к [официальной документации](https://git-scm.com/book/ru/v2/Основы-Git-Запись-изменений-в-репозиторий) — здесь подробно описано, как выполнить следующие шаги.
+4. Удалите файл `will_be_deleted.txt` с диска и из репозитория.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/719def32-428c-4ecd-833e-e2203a6f9ec2)
+
+5. Переименуйте (переместите) файл `will_be_moved.txt` на диске и в репозитории, чтобы он стал называться `has_been_moved.txt`.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/f8f2ff6c-08d0-4559-9e41-dd275ae80e25)
+   
+6. Закоммитьте результат работы с комментарием `Moved and deleted`.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/1148440b-5a2a-4b8f-bc54-a4f7be4b2f06)
 
 ### Проверка изменения
 
@@ -135,11 +148,18 @@
     * `Moved and deleted` — после удаления и перемещения временных файлов. 
 2. Проверьте это, используя комманду `git log`. Подробно о формате вывода этой команды мы поговорим на следующем занятии, но посмотреть, что она отображает, можно уже сейчас.
 
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/fef4a7e9-4b01-42d8-9faf-7313cbfbe98e)
+
 ### Отправка изменений в репозиторий
 
 Выполните команду `git push`, если Git запросит логин и пароль — введите ваши логин и пароль от GitHub. 
 
 В качестве результата отправьте ссылку на репозиторий. 
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/431eae59-9e35-4cfc-a04f-c1500e40262d)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/7d7962e1-0686-49fc-b02a-367acb610f20)
+
+https://github.com/bezymel/devops-netology
 
 ----
 
