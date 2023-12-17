@@ -37,37 +37,61 @@
 ### Создание репозитория и первого коммита
 
 1. Зарегистрируйте аккаунт на [https://github.com/](https://github.com/). Если предпочитаете другое хранилище для репозитория, можно использовать его.
-   ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/f2ca0e86-6d66-44ed-86e9-f641ab218145)
+   
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/5d4631f2-ea3c-4e41-bcb7-d43c2f890422)
 
 3. Создайте публичный репозиторий, который будете использовать дальше на протяжении всего курса, желательное с названием `devops-netology`.
    Обязательно поставьте галочку `Initialize this repository with a README`. 
-  ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/43ae9433-79f7-4575-ab4d-424d6a0525de)
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/347f4c70-d8b6-48db-b1aa-7659f5bbdc49)
     
 4. Создайте [авторизационный токен](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) для клонирования репозитория.
-![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/42193e09-7429-4296-98c1-96d64553eab0)
 
-5. Склонируйте репозиторий, используя протокол HTTPS (`git clone ...`).
-  ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/add352e9-e23e-42d4-9a44-86a2bc70a405)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/d9ac6637-5a7c-4763-82f1-918880b58361)
 
-6. Перейдите в каталог с клоном репозитория (`cd devops-netology`).
-  ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/356c84e9-01ae-4cab-8283-af834d495dc6)
-   
-7. Произведите первоначальную настройку Git, указав своё настоящее имя, чтобы нам было проще общаться, и email (`git config --global user.name` и `git config --global user.email johndoe@example.com`).
-   ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/724a58a3-6c63-4676-b9d0-f1a2efff1228)
+6. Склонируйте репозиторий, используя протокол HTTPS (`git clone ...`).
 
-8. Выполните команду `git status` и запомните результат.
-     ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/10abb32b-9802-4862-82a2-453a2fa41b5c)
-9. Отредактируйте файл `README.md` любым удобным способом, тем самым переведя файл в состояние `Modified`.
-   ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/90b1957d-7816-4076-9392-0e8697b7b539)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/c972c283-350b-4220-82c2-00f2f5ea47ea)
 
-10. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага.
-   ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/10abb32b-9802-4862-82a2-453a2fa41b5c)
+8. Перейдите в каталог с клоном репозитория (`cd devops-netology`).
 
-11. Теперь посмотрите изменения в файле `README.md`, выполнив команды `git diff` и `git diff --staged`.
-12. Переведите файл в состояние `staged` (или, как говорят, просто добавьте файл в коммит) командой `git add README.md`.
-13. И ещё раз выполните команды `git diff` и `git diff --staged`. Поиграйте с изменениями и этими командами, чтобы чётко понять, что и когда они отображают. 
-14. Теперь можно сделать коммит `git commit -m 'First commit'`.
-15. И ещё раз посмотреть выводы команд `git status`, `git diff` и `git diff --staged`.
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/03be9294-ada3-4c7b-810b-75f4a399696f)
+
+9. Произведите первоначальную настройку Git, указав своё настоящее имя, чтобы нам было проще общаться, и email (`git config --global user.name` и `git config --global user.email johndoe@example.com`).
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/ed19ef80-20e9-4201-ad97-4d3ff748d9b2)
+  
+10. Выполните команду `git status` и запомните результат.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/63a24e53-8bd2-4037-9d6b-0fe7fe22c557)
+    
+11. Отредактируйте файл `README.md` любым удобным способом, тем самым переведя файл в состояние `Modified`.
+    
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/73f4f3fe-5834-47d8-bbe0-9a9a00c10064)
+
+13. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/bc11ffba-b28b-4579-8ab9-f40e3c68b9f5)
+
+15. Теперь посмотрите изменения в файле `README.md`, выполнив команды `git diff` и `git diff --staged`.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/a226c317-353e-4062-965f-a2cc3f55dd08)
+    
+17. Переведите файл в состояние `staged` (или, как говорят, просто добавьте файл в коммит) командой `git add README.md`.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/d60c93df-c7e2-4a3e-a180-c3a31deb48e7)
+  
+19. И ещё раз выполните команды `git diff` и `git diff --staged`. Поиграйте с изменениями и этими командами, чтобы чётко понять, что и когда они отображают.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/6bdb3192-85d2-450d-b91e-f13933bfc861)
+
+21. Теперь можно сделать коммит `git commit -m 'First commit'`.
+    
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/b40eed43-d597-4b48-8655-d96bae8d902e)
+
+23. И ещё раз посмотреть выводы команд `git status`, `git diff` и `git diff --staged`.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/d05d0d63-e097-4c51-bdcc-815899fde876)
 
 ### Создание файлов `.gitignore` и второго коммита
 
