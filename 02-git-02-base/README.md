@@ -63,3 +63,4 @@ https://github.com/YOUR_LOGIN/devops-netology. Изучите предлагае
 
 ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/cb10a513-bf33-454f-8976-dd932093cb7b)
 
+https://github.com/bezymel/visibility-level
