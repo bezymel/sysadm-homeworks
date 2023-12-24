@@ -35,9 +35,9 @@ git show aefea
 
 Комментарий: Update CHANGELOG.md
 
-### Ответьте на вопросы.
+## Ответьте на вопросы.
 
-# 1. Какому тегу соответствует коммит `85024d3`?
+### 1. Какому тегу соответствует коммит `85024d3`?
 
 ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/605d912b-9879-4c62-8434-a6b31479f305)
 
@@ -47,7 +47,7 @@ commit 85024d3100126de36331c6982bfaac02cdab9e76 (tag: v0.12.23)
 
 Тег: v0.12.23
 
-# 2. Сколько родителей у коммита `b8d720`? Напишите их хеши.
+### 2. Сколько родителей у коммита `b8d720`? Напишите их хеши.
 
 ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/be39350f-4ed8-46bb-b55c-4c3a4601634d)
 
@@ -57,7 +57,7 @@ commit 85024d3100126de36331c6982bfaac02cdab9e76 (tag: v0.12.23)
 
 9ea88f22fc
 
-# 3. Перечислите хеши и комментарии всех коммитов, которые были сделаны между тегами  v0.12.23 и v0.12.24.
+### 3. Перечислите хеши и комментарии всех коммитов, которые были сделаны между тегами  v0.12.23 и v0.12.24.
 
 git log v0.12.23..v0.12.24
 
@@ -98,7 +98,7 @@ git log v0.12.23..v0.12.24
 - commit 225466bc3e5f35baa5d07197bbc079345b77525e
   Cleanup after v0.12.23 release
 
-# 4. Найдите коммит, в котором была создана функция `func providerSource`, её определение в коде выглядит так: `func providerSource(...)` (вместо троеточия перечислены аргументы).
+### 4. Найдите коммит, в котором была создана функция `func providerSource`, её определение в коде выглядит так: `func providerSource(...)` (вместо троеточия перечислены аргументы).
 
 git log -S 'func providerSource'
 
@@ -121,7 +121,7 @@ git show 8c928e8 | grep "func providerSource"
 
 Нашли - это коммит 8c928e83589d90a031f811fae52a81be7153e82f
 
-# 5. Найдите все коммиты, в которых была изменена функция `globalPluginDirs`.
+### 5. Найдите все коммиты, в которых была изменена функция `globalPluginDirs`.
 ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/b721e2ef-6b08-4eb1-b57a-62af945a19ed)
 ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/21e156de-597b-447d-bd62-87955ee06e69)
 
@@ -143,7 +143,7 @@ git log -S 'globalPluginDirs'
 * c0b17610965450a89598da491ce9b6b5cbd6393f
 * 35a058fb3ddfae9cfee0b3893822c9a95b920f4c
 
-# 6. Кто автор функции `synchronizedWriters`?
+### 6. Кто автор функции `synchronizedWriters`?
 ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/83e1d5be-5917-4e16-aed2-bdadb6830fdf)
 
 git log -S "synchronizedWriters"
