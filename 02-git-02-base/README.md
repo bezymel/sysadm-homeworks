@@ -25,42 +25,61 @@
 
 ## Задание 1. Знакомимся с GitLab и Bitbucket 
 
-ТАК КАК В РОССИИ САНКЦИИ, Я НЕ СМОГ ЗАРЕГИСТРИРОВАТЬСЯ В GITLUB. нУЖНО ПРИВЕЗАТЬ НОМЕР ТЕЛЕФОНА В АККАУНТУ ПРИ РЕГИСТРАЦИИ, НО РОССИИ ТАМ НЕТ, ПОЭТОМУ И ПРИВЯЗЫВАТЬ НЕЧЕГО. РЕШИЛ СДЕЛАТЬ ДЗ В GITHUB.  
+Из-за сложности доступа к Bitbucket в работе достаточно использовать два репозитория: GitHub и GitLab.
 
-### GitHub
+Иногда при работе с Git-репозиториями надо настроить свой локальный репозиторий так, чтобы можно было 
+отправлять и принимать изменения из нескольких удалённых репозиториев. 
 
-1. Создадим аккаунт в GitHub, если у вас его ещё нет.
-2. После регистрации или авторизации в GitHub создайте новый репозиторий, нажав на ссылку `Create a projet`. 
+Это может понадобиться при работе над проектом с открытым исходным кодом, если автор проекта не даёт права на запись в основной репозиторий.
+
+Также некоторые распределённые команды используют такой принцип работы, когда каждый разработчик имеет свой репозиторий, а в основной репозиторий пушатся только конечные результаты 
+работы над задачами. 
+
+### GitLab
+
+Создадим аккаунт в GitLab, если у вас его ещё нет:
+
+1. GitLab. Для [регистрации](https://gitlab.com/users/sign_up)  можно использовать аккаунт Google, GitHub и другие.
+
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/05a6f9a2-034e-4591-81ab-9538bc69a3cd)
+   
+2. После регистрации или авторизации в GitLab создайте новый проект, нажав на ссылку `Create a projet`.
 Желательно назвать также, как и в GitHub — `devops-netology` и `visibility level`, выбрать `Public`.
 3. Галочку `Initialize repository with a README` лучше не ставить, чтобы не пришлось разрешать конфликты.
    
-   ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/c83187fb-de8a-4018-86b7-729b857037c0)
-   
-4. Перейдите на страницу созданного вами репозитория, URL будет примерно такой:
-https://github.com/YOUR_LOGIN/devops-netology. Изучите предлагаемые варианты для начала работы в репозитории в секции
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/b7a7e499-366d-4185-8e4b-0b6221ddc7d0)
+
+4. Если вы зарегистрировались при помощи аккаунта в другой системе и не указали пароль, то увидите сообщение:
+`You won't be able to pull or push project code via HTTPS until you set a password on your account`. 
+Тогда перейдите [по ссылке](https://gitlab.com/profile/password/edit) из этого сообщения и задайте пароль. 
+Если вы уже умеете пользоваться SSH-ключами, то воспользуйтесь этой возможностью (подробнее про SSH мы поговорим в следующем учебном блоке).
+5. Перейдите на страницу созданного вами репозитория, URL будет примерно такой:
+https://gitlab.com/YOUR_LOGIN/devops-netology. Изучите предлагаемые варианты для начала работы в репозитории в секции
 `Command line instructions`.
 
-![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/8656e5ee-68e6-438e-af9d-dec4b0b8577e)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/eb2e745d-a2c7-4c3f-98c7-ff6501803eb7)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/59678b5f-837d-4386-b914-f7650f15d4d9)
 
-6. Запомните вывод команды `git remote -v`.
-   
- ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/944274a0-a377-4073-9027-4502c026c00d)
+7. Запомните вывод команды `git remote -v`.
 
-7. Из-за того, что это будет наш дополнительный репозиторий, ни один вариант из перечисленных в инструкции (на странице 
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/46afcf8f-cc66-4ce7-8a4b-c577ac3ecbf2)
+
+9. Из-за того, что это будет наш дополнительный репозиторий, ни один вариант из перечисленных в инструкции (на странице 
 вновь созданного репозитория) нам не подходит. Поэтому добавляем этот репозиторий, как дополнительный `remote`, к созданному
 репозиторию в рамках предыдущего домашнего задания:
 `git remote add gitlab https://gitlab.com/YOUR_LOGIN/devops-netology.git`.
 
-![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/b7f78012-071e-4914-acab-7b7170c27af9)
-![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/4893097c-504c-412f-959d-ac781e6f9237)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/e9839272-d867-43d1-8ad2-a38c3f5cd38b)
 
-8. Отправьте изменения в новый удалённый репозиторий `git push -u gitlab main`.
+11. Отправьте изменения в новый удалённый репозиторий `git push -u gitlab main`.
+12. Обратите внимание, как изменился результат работы команды `git remote -v`.
 
-![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/0b7978de-a610-438b-8124-499ced026545)
-![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/1eeb433b-5a68-4d8f-8deb-1de8e6cefa37)
+![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/30640566-e33b-4fe3-8c7b-778c10696d35)
 
-7. Обратите внимание, как изменился результат работы команды `git remote -v`.
+#### Как изменить видимость репозитория в  GitLab — сделать его публичным 
 
-![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/cb10a513-bf33-454f-8976-dd932093cb7b)
-
-https://github.com/bezymel/visibility-level
+* На верхней панели выберите «Меню» -> «Проекты» и найдите свой проект.
+* На левой боковой панели выберите «Настройки» -> «Основные».
+* Разверните раздел «Видимость» -> «Функции проекта» -> «Разрешения».
+* Измените видимость проекта на Public.
+* Нажмите «Сохранить изменения».
