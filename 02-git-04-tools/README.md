@@ -37,6 +37,7 @@ git show aefea
 
 2. Ответьте на вопросы.
 
+
 1. Какому тегу соответствует коммит `85024d3`?
 
 ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/605d912b-9879-4c62-8434-a6b31479f305)
