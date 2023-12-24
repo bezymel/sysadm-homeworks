@@ -76,6 +76,8 @@ https://gitlab.com/YOUR_LOGIN/devops-netology. Изучите предлагае
 
 ![image](https://github.com/bezymel/sysadm-homeworks/assets/129361495/30640566-e33b-4fe3-8c7b-778c10696d35)
 
+https://kulisa.gitlab.yandexcloud.net/bezumel/devops-netology
+
 #### Как изменить видимость репозитория в  GitLab — сделать его публичным 
 
 * На верхней панели выберите «Меню» -> «Проекты» и найдите свой проект.
